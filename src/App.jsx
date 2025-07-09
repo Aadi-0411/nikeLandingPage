@@ -1,11 +1,12 @@
 import {
-  Nav, Hero, PopularProducts,SuperQuality,Services,SpecialOffer,CustomerReviews,Subscribe,Footer
+  Hero, PopularProducts,SuperQuality,Services,SpecialOffer,CustomerReviews,Subscribe,Footer
 } from './sections'
+import Nav from './components/Nav'
 
 const App = () => {
   return (
     <main className="relative">
-      {/* <Nav /> */}
+      <Nav />
       {/* padding is a created class in tailwind */}
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />

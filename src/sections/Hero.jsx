@@ -26,8 +26,11 @@ const Hero = () => {
           arrivals, quality comfort,
           and innovation for your active life.
         </p>
+        <div>
         <Button label="Shop Now"
         iconURL={arrowRight}/>
+        </div>
+        
         <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
           {statistics.map((stat, index) => (
             <div key={index}>
